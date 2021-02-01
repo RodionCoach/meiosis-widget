@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Nuclear</title>
+  </head>
+  <body>
+    <div id="cycle-wrapper">
+      <div class="point">
+        <div class="buttons-wrapper">
+          <div class="first-row">
+            <div class="title" data-point="INT3D-77-EarlyMeiosis1"><span>Early meiosis I</span></div>
+            <div class="title" data-point="INT3D-79-EarlyMeiosis2"><span>Early meiosis II</span></div>
+          </div>
+          <div class="second-row">
+            <div class="title" data-point="INT3D-78-LateMeiosis1"><span>Late meiosis I</span></div>
+            <div class="title" data-point="INT3D-80-LateMeiosis2"><span>Late meiosis II</span></div>
+          </div>
+          <div class="title" data-point="INT3D-119-Allphasesofmeiosis"><span>All phases of meiosis</span></div>
+      </div>
+        <img src="img/INT3D-81-MeiosisMainscreen1.jpg" alt="no-img">
+      </div>
+      <div id="timeline-wrapper">
+        <button id="closeButton">
+          <span></span>&nbsp;Close
+        </button>
+        <div id="timeline"></div>
+      </div>
+    </div>
+    <script>
+      if ('serviceWorker' in navigator) {
+        navigator.serviceWorker
+        .register('service-worker.js').then(() => {
+        });
+      }
+    </script>
+  </body>
+</html>
