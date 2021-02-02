@@ -6,10 +6,10 @@ const titles = document.getElementsByClassName("title");
 let timeline;
 
 const seqCount = {
-  "INT3D-77-EarlyMeiosis1": 400,
-  "INT3D-78-LateMeiosis1": 440,
-  "INT3D-79-EarlyMeiosis2": 251,
-  "INT3D-80-LateMeiosis2": 504,
+  "INT3D-77-EarlyMeiosis1": 525,
+  "INT3D-78-LateMeiosis1": 326,
+  "INT3D-79-EarlyMeiosis2": 306,
+  "INT3D-80-LateMeiosis2": 443,
   "INT3D-119-Allphasesofmeiosis": 1594,
 }
 
